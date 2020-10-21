@@ -57,6 +57,7 @@ input[type="search"] {
   margin-left: 20px;
   border-radius: 30px;
   border: 1px solid black;
+  opacity: 0.5;
 }
 p::before {
   content: url(smiley.gif);
@@ -83,6 +84,9 @@ ul > li {
 
 ul > li > a:hover {
   color: rgb(157, 255, 0);
+}
+a[target="_blank"] {
+  background-color: rgb(24, 35, 39);
 }
 li {
   text-align: center;
