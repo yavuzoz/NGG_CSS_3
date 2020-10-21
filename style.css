@@ -20,7 +20,7 @@ body {
   justify-content: space-around;
 }
 #grid-item2 {
-  display: flex;
+    display: flex;
   grid-row: 2/8;
   grid-column: 1/2;
   border: 1px solid rgb(22, 24, 24);
@@ -73,10 +73,11 @@ h2::first-letter {
   font-size: xx-large;
 }
 .nav_bar {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
 }
 ul > li {
+    flex-grow: 1;
   background-color: aqua;
   border: 1px solid black;
   margin: 10px;
