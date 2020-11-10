@@ -21,3 +21,8 @@ const secondHand = document.querySelector('.second-hand');
   setInterval(setDate, 1000);
 
   setDate();
+// this is for input
+
+function myFunction(x) {
+  x.style.background = "red";
+}
