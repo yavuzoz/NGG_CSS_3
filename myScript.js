@@ -26,7 +26,7 @@ const secondHand = document.querySelector('.second-hand');
 function myFunction(x) {
   x.style.background = "red";
 }
-// back ground colors change button , random
+// back ground colors change button , random and set color button
 const colors = ["green","red","blue","pink","yellow","gray"]
 const buttonElement = document.querySelector("#randomColorButton")
 const addColorButton = document.querySelector("#setColorButton")
