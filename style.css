@@ -43,8 +43,8 @@ body {
   justify-content: space-around;
 }
 input[type="search"] {
-  width: 250px;
-  height: 35px;
+  width: 200px;
+  height: 30px;
   font-size: 16px;
   padding: 0px 20px 0px 40px;
   outline: none;
@@ -105,13 +105,17 @@ p {
 }
 .colorInput {
   display: block;
-  margin: 15px;
-  width: 25vh;
+  margin-top: 20vh;
+  width: 170px;
 }
+button {
+  margin: 5px;
+}
+
 .clock {
   background-color: bisque;
-  width: 30rem;
-  height: 30rem;
+  width: 20rem;
+  height: 20rem;
   border: 20px solid white;
   border-radius: 50%;
   margin: 50px auto;
