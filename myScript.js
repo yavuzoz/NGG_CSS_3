@@ -26,3 +26,12 @@ const secondHand = document.querySelector('.second-hand');
 function myFunction(x) {
   x.style.background = "red";
 }
+// back ground colors change button , random
+const colors = ["green","red","blue","pink","yellow","gray"]
+const buttonElement = document.querySelector("#randomColorButton")
+buttonElement.addEventListener("click",changeColors)
+
+function changeColors() {
+  const randomIndex = Math.floor(Math.random() * colors.length)
+  document.querySelector("main").style.backgroundColor = colors[randomIndex];
+}
