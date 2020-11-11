@@ -29,9 +29,17 @@ function myFunction(x) {
 // back ground colors change button , random
 const colors = ["green","red","blue","pink","yellow","gray"]
 const buttonElement = document.querySelector("#randomColorButton")
+const addColorButton = document.querySelector("#setColorButton")
+
+addColorButton.addEventListener("click",addColor)
 buttonElement.addEventListener("click",changeColors)
 
 function changeColors() {
   const randomIndex = Math.floor(Math.random() * colors.length)
   document.querySelector("main").style.backgroundColor = colors[randomIndex];
+}
+
+function addColor() {
+  const userInput = document.querySelector(".colorInput")
+  document.querySelector("main").style.backgroundColor = userInput.value;
 }
