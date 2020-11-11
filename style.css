@@ -103,6 +103,11 @@ p {
   padding: 20px;
   width: 25vh;
 }
+.colorInput {
+  display: block;
+  margin: 15px;
+  width: 25vh;
+}
 .clock {
   background-color: bisque;
   width: 30rem;
